@@ -1,0 +1,43 @@
+.sadrzajSelect {
+    position: relative;
+    margin: 5% 5%;
+}
+
+.sadrzajSelect h1 {
+    float: right;
+}
+
+.Sadrzaj {
+    clear: both;
+    margin-top: 30px;
+    max-height: 530px;
+    height: 530px;
+    overflow-x: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em
+}
+
+.CelinaManja {
+    margin-top: 5%;
+}
+
+#KompletiSadrzaj {
+    overflow: none;
+    overflow-x: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.TekstKraj {
+    margin: 5% 10%;
+    text-align: center;
+    font-size: 2em;
+}
+
+a {
+    color: #ff7675;
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+.glavni {
+    margin: 5vh 10%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+input,
+select {
+    margin-left: 3%;
+    border-radius: 10px;
+    width: 200px;
+    padding-left: 5px;
+}
+
+img {
+    top: 5px;
+    left: 10px;
+}
+
+#SadrzajKnjige {
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    select,
+    input {
+        margin: auto;
+        width: 40%;
+        position: relative;
+        display: inline-block;
+    }
+    .glavni {
+        margin: 12vh 5%;
+    }
+}

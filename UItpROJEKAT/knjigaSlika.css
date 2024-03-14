@@ -1,0 +1,261 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.KnjigaK {
+    border: 0px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 2%;
+    box-sizing: content-box;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+.KnjigaK img {
+    border: 0px solid black;
+    border-radius: 15px;
+    position: relative;
+    width: 150px;
+    height: 230px;
+}
+
+.Oknjizi {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.naziv {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.Autor {
+    margin-top: 10px;
+}
+
+button,
+.dugme {
+    clear: both;
+    width: 50px;
+    margin-left: 10px;
+    position: relative;
+    padding: 10px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    /*background: linear-gradient(#ffeaa7, #FF7675);*/
+    background-color: #ff7675;
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+
+button:hover,
+.dugme:hover {
+    color: #2d3436;
+    background-color: transparent;
+    border: 1px solid #2d3436;
+}
+
+.vise {
+    /* background: linear-gradient(#74b9ff, #55efc4);*/
+    background-color: #a29bfe;
+}
+
+.Cena {
+    font-weight: 700;
+    color: #ff7675;
+}
+
+.KnjigaK:hover button {
+    opacity: 1;
+}
+
+button:active {
+    /* background: linear-gradient( #FF7675, #ffeaa7);*/
+    background-color: #55efc4;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 99;
+    background-color: #2d3436;
+}
+
+.Logo {
+    display: inline;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+}
+
+ul,
+li {
+    display: inline;
+}
+
+li {
+    margin-right: 20px;
+}
+
+ul {
+    float: right;
+}
+
+li a {
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+#broj {
+    font-size: 100%;
+    background-color: #FF7675;
+    border: 0px solid black;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 5px 10px;
+    position: absolute;
+    top: -170%;
+    left: 75%;
+}
+
+li a img {
+    width: 35px;
+    height: 35px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+@media (max-width:700px) {
+    button {
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: #2d3436;
+    color: white;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+}
+
+footer ul {
+    float: none;
+}
+
+footer div {
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: white;
+}

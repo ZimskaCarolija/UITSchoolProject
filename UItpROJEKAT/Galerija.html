@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="knjigaSlika.css">
+    <script src="javaKnjige.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Sans">
+    <link rel="stylesheet" href="stilGalerija.css">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'PT Sans', serif;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body onload="GalerijaPOkrenuta()">
+    <nav><a href="index.html" class="Logo"><span>INKVADI</span></a>
+        <ul class="meni">
+            <li><a href="Galerija.html">Galerija</a></li>
+            <li><a href="Knjige.html">Sve Knjige</a></li>
+            <li>
+                <a href="Korpa.html"><img src="shopping-basket-fill.png">
+                    <spam id="broj"></spam>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="glavni">
+        <h1>Galerija</h1>
+        <div id="Klizac">
+            <img id="SLIKA" src="slikaGalerija/slika0.jpg">
+            <div id="Levi" onclick="Desno()"><img src="arrow-right-s-line.svg"></div>
+            <div id="Desni" onclick="Levo()"><img src="arrow-left-s-line.svg"></div>
+            <ul>
+                <li class="dugmeL" onclick="PromeniSLikuDugme(0)"></li>
+                <li class="dugmeL" onclick="PromeniSLikuDugme(1)"></li>
+                <li class="dugmeL" onclick="PromeniSLikuDugme(2)"></li>
+                <li class="dugmeL" onclick="PromeniSLikuDugme(3)"></li>
+            </ul>
+        </div>
+        <h2>Sve Slike</h2>
+        <div id="SveSlike">
+            <a href="slikaGalerija/slika0.jpg" target="_blank"><img src="slikaGalerija/slika0.jpg"></a>
+            <a href="slikaGalerija/slika1.jpg" target="_blank"> <img src="slikaGalerija/slika1.jpg"></a>
+            <a href="slikaGalerija/slika2.jpg" target="_blank"><img src="slikaGalerija/slika2.jpg"></a>
+            <a href="slikaGalerija/slika3.jpg" target="_blank"><img src="slikaGalerija/slika3.jpg"></a>
+            <a href="slikaGalerija/slika4.jpg" target="_blank"><img src="slikaGalerija/slika4.jpg"></a>
+        </div>
+    </div>
+    <footer>
+        <ul id="ListaLInkova">
+
+
+
+        </ul>
+        <br>
+        <div><a href="index.html">INKVADI</a></div>
+    </footer>
+</body>
+
+</body>
+
+</html>

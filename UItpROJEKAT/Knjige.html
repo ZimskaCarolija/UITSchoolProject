@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javaKnjige.js"></script>
+    <link rel="stylesheet" href="knjigaSlika.css">
+    <link rel="stylesheet" href="stilSveKnjige.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Sans">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'PT Sans', serif;
+        }
+    </style>
+</head>
+
+<body onload="KNjigePOkreni()">
+    <nav><a href="index.html" class="Logo"><span>INKVADI</span></a>
+        <ul class="meni">
+            <li><a href="Galerija.html">Galerija</a></li>
+            <li><a href="Knjige.html">Sve Knjige</a></li>
+            <li>
+                <a href="Korpa.html"><img src="shopping-basket-fill.png">
+                    <spam id="broj"></spam>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="glavni">
+        <h1>Knjige </h1>
+        <div><select name="zanrovi" id="zanrovi" onchange="PrikaziKnjigeSve()">
+            <option value="Sve">Sve</option>
+            <option value="Akcija">Akcija</option>
+            <option value="Fantastika">Fantastika</option>
+            <option value="Finansije">Finansije</option>
+            <option value="Istorija">Istorija</option>
+            <option value="Komedija">Komedija</option>
+            <option value="Naučna fantastika">Naučna fantastika</option>
+            <option value="Horor">Horor</option>
+        </select> <input type="search" id="pretraga" onchange="PrikaziKnjigeSve()"><img src="search-line.png"></div>
+        <hr>
+        <div id="SadrzajKnjige"></div>
+    </div>
+    <footer>
+        <ul id="ListaLInkova">
+
+
+
+        </ul>
+        <br>
+        <div><a href="index.html">INKVADI</a></div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+.Glavni {
+    margin: 5vh 10%;
+}
+
+.OKnjizi {
+    display: inline-flex;
+}
+
+button {
+    opacity: 1;
+    margin: 5% 0%;
+}
+
+.Zaglavlje {
+    width: 40%;
+}
+
+img {
+    width: 70%;
+}
+
+.opis {
+    width: 40%;
+}
+
+#opisTxt {
+    margin-top: 10%;
+    line-height: 1.4em;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+@media (max-width:720px) {
+    .OKnjizi {
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+    }
+    .Zaglavlje,
+    .opis {
+        width: 100%;
+    }
+    #opisTxt {
+        margin-top: 5%;
+    }
+}

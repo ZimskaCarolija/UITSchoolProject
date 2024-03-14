@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javaKnjige.js"></script>
+    <link rel="stylesheet" href="knjigaSlika.css">
+    <link rel="stylesheet" href="ViseStil.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Sans">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'PT Sans', serif;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body onload="VisePOkreni()">
+    <nav><a href="index.html" class="Logo"><span>INKVADI</span></a>
+        <ul class="meni">
+            <li><a href="Galerija.html">Galerija</a></li>
+            <li><a href="Knjige.html">Sve Knjige</a></li>
+            <li>
+                <a href="Korpa.html"><img src="shopping-basket-fill.png">
+                    <span id="broj"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="Glavni">
+        <h1 id="Naslov"></h1>
+        <hr>
+        <div class="OKnjizi">
+            <div class="Zaglavlje">
+                <div class="SlikaDiv"> <img id="Slika"></div><br>
+
+                <span>Naslov : </span>
+                <span id="naslov">Dina</span><br>
+                <span>Autor : </span>
+                <span id="autor">Autor</span><br>
+                <span>Žanr : </span>
+                <span id="zanr">Fantastika</span><br>
+                <span>Cena : </span>
+                <span id="cena">Cena</span><br>
+                <button onclick="KorpaFjaVise()">U Korpu</button>
+
+            </div>
+            <div class="opis">
+                <h2>Opis</h2>
+                <div id="opisTxt"></div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <ul id="ListaLInkova">
+
+
+
+        </ul>
+        <br>
+        <div><a href="index.html">INKVADI</a></div>
+    </footer>
+</body>
+
+</html>

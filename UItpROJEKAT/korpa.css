@@ -1,0 +1,53 @@
+.glavni {
+    margin: 5vh 10%;
+}
+
+.CenaCela,
+#CenaT {
+    display: inline;
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.DugmeObrisi,
+.dugme {
+    opacity: 1;
+    background-color: #74b9ff;
+}
+
+form {
+    border-top: 1px solid #2d3436;
+    margin-top: 5%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+input {
+    margin-top: 1%;
+}
+
+#PotvrdaEmaila {
+    color: #d63031;
+    opacity: 1;
+}
+
+#Mail:valid+#PotvrdaEmaila {
+    opacity: 0;
+}
+
+#Mail:invalid+#PotvrdaEmaila {
+    opacity: 1;
+}
+
+#SadrzajKorpa {
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid #2d3436;
+    padding: 2px;
+}
